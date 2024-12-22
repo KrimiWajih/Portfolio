@@ -1,0 +1,113 @@
+.header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center; /* Align items vertically */
+  padding: 10px 20px;
+  background-color: white;
+  color: white;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+.logo img {
+  height: 40px; /* Adjust logo size */
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+nav {
+  display: flex;
+  gap: 60px; /* Space between menu items */
+  padding-right: 5%;
+}
+nav a {
+  color: black;
+  text-decoration: none; /* No underline */
+  font-size: 1rem;
+  /*padding: 10px; */
+}
+.home1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+}
+
+.wantto {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+.wantto #learn {
+  font-size: 50px;
+}
+.wantto #learn #learn1 {
+  color: rgb(0, 89, 255);
+}
+
+.wantto #learn #buto {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none; /* No underline */
+}
+header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center; /* Align items vertically */
+  padding: 10px 20px;
+  background-color: white;
+  color: white;
+}
+
+.terms {
+  font-family: "Roboto", sans-serif;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: lightgrey;
+}
+.firstrow {
+  display: flex; /* boxes in same line */
+  justify-content: space-between; /* Space between the boxes */
+  gap: 20px; /* spacing between boxes */
+  /*margin: 0 auto; /* Center container on the page */
+}
+.project1 {
+  /*flex: 1;*/
+
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: hidden; /* no overflowing content */
+  text-align: center; /* center content */
+}
+.Project-image {
+  width: 100%; /* fit the box width */
+  height: 250px; /* image height */
+}
+.project-title {
+  margin: 10px 0; /* spacing top+bottom */
+  font-size: 1.2rem; /* title size */
+  font-weight: bold;
+}
+.project-description {
+  font-size: 1rem; /* description text size */
+  text-align: left; /* Align text to the left */
+  color: #555;
+  line-height: 2; /* Improve readability with line height */
+  padding: 0 10px;
+}
